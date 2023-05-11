@@ -3,7 +3,7 @@ Version: 3.0
 Autor: hummer
 Date: 2023-05-04 10:25:49
 LastEditors: hummer
-LastEditTime: 2023-05-09 16:05:10
+LastEditTime: 2023-05-11 21:54:34
 '''
 
 import requests
@@ -28,7 +28,7 @@ def get_m3u8(url):
     description: 获取视频的m3u8文件,并保存到当前目录
     params:
         url: 樱花动漫视频的url
-    returns:
+    returns: 
         file_name: 集数.m3u8(例如: 1.m3u8)
         domain_name: ts文件url的域名
     """
